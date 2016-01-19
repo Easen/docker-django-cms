@@ -6,3 +6,4 @@ ADD requirements.txt /app/
 RUN pip install -r requirements.txt
 ADD app/ /app/
 EXPOSE 8000
+CMD ["/app/run.sh"]
