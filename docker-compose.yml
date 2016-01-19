@@ -2,6 +2,6 @@ web:
   build: .
   command: /app/run.sh
   volumes:
-    - .:/app
+    - ./app:/app
   ports:
     - "8000:8000"
