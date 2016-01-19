@@ -94,7 +94,8 @@ TEMPLATES = [
     'django.core.context_processors.tz',
     'sekizai.context_processors.sekizai',
     'django.core.context_processors.static',
-    'cms.context_processors.cms_settings'
+    'cms.context_processors.cms_settings',
+    'mysite.context_processors.site'
             ],
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
